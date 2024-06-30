@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cherry Omoda</title>
+    <style>
+      body {
+        background-color: black;
+        margin: auto;
+        padding: 0%;
+      }
+      h1 {
+        color: #ffff;
+        text-align: justify;
+        font-size: xxx-larger;
+        font-weight: 700;
+        text-align: center;
+      }
+      h2 {
+        color: #ffff;
+        text-align: justify;
+        font-size: xxx-larger;
+        font-weight: 700;
+        text-align: center;
+      }
+      .column {
+        float: left;
+        width: 30%;
+        padding: 5px;
+      }
+      img {
+        width: 100%;
+      }
+      h3 {
+        color: #ffff;
+        text-align: center;
+        font-weight: 500;
+      }
+      p {
+        color: #ffff;
+        text-align: center;
+        font-weight: 200;
+        font-size: large;
+        line-height: normal;
+      }
+      button {
+        font-weight: 300;
+        background: linear-gradient(
+          to bottom,
+          rgb(234, 18, 151),
+          rgb(25, 0, 0)
+        );
+        padding: 15px 20px;
+        display: block;
+        text-decoration: none;
+        border-radius: 40px;
+        margin: 30px auto;
+        border: 1px solid;
+        box-shadow: 5px 5px 10px;
+        transition: all 2s ease-in-out;
+      }
+      button:hover {
+        background: white;
+        color: black;
+        cursor: pointer;
+      }
+      a {
+        text-align: center;
+      }
+      div {
+        color: #ffff;
+        font-weight: 300;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cherry Omoda</h1>
+    <hr />
+    <h2>The Future is here!</h2>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR43sCb9vQdmdtZqXUuEccnwUnEcdKA2eQtvw&usqp=CAU"
+      width="200"
+      alt="exterior"
+    />
+    <img
+      src="https://image-prod.iol.co.za/16x9/800/?source=https://xlibris.public.prod.oc.inl.infomaker.io:8443/opencontent/objects/a45f890a-b110-52ed-9255-024fa47fe6a9&operation=CROP&offset=0x2&resize=2000x1125"
+      width="204"
+      alt="interior"
+    />
+    <br />
+    <br />
+    <h3><strong>THE FUTURE STARTS WITH OMODA 5</strong></h3>
+    <br />
+    <p>
+      OMODA5 was developed within the framework of the Art in Motion
+      concept,which is based on avant-garde art,as an experiment-with the
+      concept,color,form.The Art in Motion design philosophy is based on the
+      idea that functional design can also be incredibly
+      beautiful,touchable,seen from the outside and experienced behind the
+      wheel.Stylish grille,18"two-tone alloy wheels,floating roof,dynamic
+      fastback bodywork,T-shaped daytime running lights,dynamic turn
+      signals-every element emphasizes a sporty modern look.T-shaped daytime
+      running lights draw attention in traffic,powerful LED headlights provide
+      improved visibility at night,and the original design of the matrix
+      taillights creates a 3D effect-another bright touch in the appearance of a
+      futuristic car.
+    </p>
+    <br />
+    <a href="https://en.wikipedia.org/wiki/Chery_Omoda_5" target="_blank"
+      ><em>Learn more about Cherry Omoda</em></a
+    >
+    <br />
+    <br />
+    <div class="contact-details">
+      <span class="contact-platform">telephone Number:</span>011 3848 288
+    </div>
+    <br />
+    <br />
+    <button>Book Test Drive</button>
+    <script>
+      function testDrive() {
+        let name = prompt("What is your name?");
+        let lastName = prompt("What is your last name?");
+        let emailAddress = prompt("What is your email address?");
+        let age = prompt("What is your age?");
+        if (age < 18) {
+          alert("Sorry, cannot test drive😢");
+        } else {
+          alert("Thank You " + name + ", We'll be in touch!😀");
+        }
+      }
+
+      let testButton = document.querySelector("button");
+      testButton.addEventListener("click", testDrive);
+    </script>
+  </body>
+</html>
