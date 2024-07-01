@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  color: #231d3c;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 36px;
+  line-height: 48px;
+}
+span.material-symbols-outlined {
+  color: blue;
+  font-size: 30px;
+  font-weight: 900;
+}
+.material-symbols-outlined {
+  color: red;
+  font-size: 30px;
+  font-weight: 900;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.material-symbols-outlineds {
+  color: green;
+  font-weight: 900;
+  font-size: 30px;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
