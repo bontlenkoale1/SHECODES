@@ -1,0 +1,69 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 50px;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+input[type="search"] {
+  flex: 1;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #5c5858;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid #5c5858;
+  border-radius: 4px 0 0 4px;
+  box-shadow: #5c5858;
+  background-color: #1220b9;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:active {
+  background-color: #1e0ab6;
+}
+.current-weather h1 {
+  font-size: 45px;
+  font-weight: 900px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.current-weather p {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.current-weather p strong {
+  color: rgb(214, 13, 124);
+  font-size: larger;
+}
+.current-weather div:nth-child(2) {
+  align-items: center;
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: -80px;
+  right: 35px;
+}
+.footer {
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+  padding-top: 15px;
+
+  color: rgba(39, 33, 66, 0.4);
+}
