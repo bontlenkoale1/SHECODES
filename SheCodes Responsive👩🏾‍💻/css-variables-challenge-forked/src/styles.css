@@ -1,0 +1,37 @@
+:root {
+  --cool-color: #95144a;
+  --cool-body: rgb(202, 83, 218, 29);
+  --text-color: rgba(153, 181, 233, 0.5);
+  --box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.644);
+  --font-family: italics;
+}
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  background: var(--cool-body);
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1 h2,
+h3 {
+  color: var(--cool-color);
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+p {
+  background: var(--text-color);
+  font-family: var(--font-family);
+  box-shadow: var(--box-shadow);
+  color: var(--cool-body);
+}
