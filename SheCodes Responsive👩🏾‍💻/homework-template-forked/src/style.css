@@ -1,0 +1,106 @@
+:root {
+  --color-picks: #f4f6ff;
+  --box-shadow: 10px 10px 5px rgba(78, 78, 78, 0.205);
+  --color-code: rgb(173, 171, 228);
+}
+body {
+  background: rgb(173, 171, 228);
+}
+.Typewriter {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Typewriter__text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+. Typewriter__cursor {
+  display: inline-block;
+  width: 10px;
+  height: 0.2em;
+  background-color: rgb(4, 56, 87);
+  animation: Typewriter-cursor 1s infinite;
+  margin-left: 1px;
+}
+
+@keyframes Typewriter-cursor {
+  0% {
+    opacity: 0;
+  }
+  50 {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  20% {
+    border-color: rgb(7, 50, 116);
+  }
+}
+.Typewriter__text h1 {
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  color: var(--color-picks);
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.aboutme h2,
+.aboutme h3 {
+  color: var(--color-picks);
+  font-size: 25px;
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.styled-button {
+  box-shadow: var(--box-shadow);
+  background-color: var(--color-picks);
+  border: none;
+  color: var(--color-code);
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.styled-button a {
+  color: var(--color-code);
+  text-decoration: none;
+}
+
+.styled-button:hover {
+  background-color: rgb(13, 84, 119);
+  transform: scale(1.05);
+}
+
+.styled-button:active {
+  transform: scale(0.98);
+}

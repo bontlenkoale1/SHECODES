@@ -1,0 +1,41 @@
+:root {
+  --color-picks: #f4f6ff;
+  --box-shadow: 10px 10px 5px rgba(78, 78, 78, 0.205);
+  --color-code: rgb(173, 171, 228);
+}
+body {
+  background: rgb(120, 144, 156);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.styled-button {
+  box-shadow: var(--box-shadow);
+  background-color: var(--color-picks);
+  border: none;
+  color: var(--color-code);
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+}
+
+.styled-button a {
+  color: var(--color-code);
+  text-decoration: none;
+}
+
+.styled-button:hover {
+  background-color: rgb(13, 84, 119);
+  transform: scale(1.05);
+}
+
+.styled-button:active {
+  transform: scale(0.98);
+}
